@@ -12,7 +12,7 @@ window.onload = () =>{
 
 buttons.forEach((each_button)=>{
     each_button.addEventListener('click',(e)=>{
-            if(display.value != '' && confirm == 1){
+            if(confirm == 1){
                 display.value="";
                 confirm = 0;
             }
@@ -35,11 +35,12 @@ equal.addEventListener('click', ()=>{
         }
     }
     catch(err){
-        display.value = "ERROR"; 
-        setTimeout(() => {
-            display.value= '';
-        }, 3000);
-    }    
+            display.value='Error';
+            
+            setTimeout(() => {
+                display.value = ''; 
+            }, 1000);
+    }   
 });
 
 clear.addEventListener('click',()=>{
