@@ -84,16 +84,17 @@ body{
     }
 
     #calc-body{
-        margin: 15%;
+        margin: 13%;
         width: 90vw;
         /* height: 75%;   */
-        padding: 50px 40px;  
+        padding: 50px 25px;  
     }
 
     .buttons{
         /* display: grid; */
         justify-content: center;
-        grid-gap: 5px;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
         margin-top: 20px;
     }
     /* .buttons input[type ="button"]{
