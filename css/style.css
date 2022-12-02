@@ -7,16 +7,24 @@
 }
 
 body{
-    height: 100vh;
-    background-color: #020f31;
-    
+    background-color: #020f31; 
+    max-height: 100vh;  
 }
 
 #container{
+    width: 27em;
+    height: 100vh;
+    padding: 100px;
+    position: relative;
+    margin: 75px auto;
+    background-color: #020f31;
+}
+
+#calc-body{
     width: 400px;
     background-color: #00174f;
-    margin: 0 15px;
-    padding: 50px 30px;
+    margin:0;
+    padding: 50px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
