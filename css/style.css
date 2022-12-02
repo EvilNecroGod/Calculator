@@ -12,7 +12,7 @@ body{
 
 #container{
     /* width: 100vw; */
-    height: 100vh;
+    height: 90vh;
     background-color: #020f31;
     display: flex;
     justify-content: center;
@@ -84,7 +84,7 @@ body{
     }
 
     #calc-body{
-        margin: 5%;
+        margin: 15%;
         width: 90vw;
         /* height: 75%;   */
         padding: 50px 40px;  
