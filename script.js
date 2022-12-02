@@ -49,4 +49,4 @@ clear.addEventListener('click',()=>{
 
 backspace.addEventListener('click',()=>{
     display.value = display.value.substr(0,display.value.length-1);
-})
+});
